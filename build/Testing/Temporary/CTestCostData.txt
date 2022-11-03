@@ -1,0 +1,5 @@
+ArrayStackTest.IsEmpty 5 0.00108104
+ArrayStackTest.WhenPop 0 0
+ArrayStackTest.WhenTop 2 0
+---
+ArrayStackTest.WhenTop

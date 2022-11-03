@@ -1,0 +1,5 @@
+if(EXISTS "/home/darwin/unsa/to/lab/stack/build/arrayStack[1]_tests.cmake")
+  include("/home/darwin/unsa/to/lab/stack/build/arrayStack[1]_tests.cmake")
+else()
+  add_test(arrayStack_NOT_BUILT arrayStack_NOT_BUILT)
+endif()

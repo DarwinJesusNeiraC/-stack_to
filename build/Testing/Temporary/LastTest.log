@@ -1,0 +1,68 @@
+Start testing: Nov 03 15:17 -05
+----------------------------------------------------------
+1/2 Testing: ArrayStackTest.IsEmpty
+1/2 Test: ArrayStackTest.IsEmpty
+Command: "/home/darwin/unsa/to/lab/stack/build/arrayStack" "--gtest_filter=ArrayStackTest.IsEmpty" "--gtest_also_run_disabled_tests"
+Directory: /home/darwin/unsa/to/lab/stack/build
+"ArrayStackTest.IsEmpty" start time: Nov 03 15:17 -05
+Output:
+----------------------------------------------------------
+Running main() from /home/darwin/unsa/to/lab/stack/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ArrayStackTest.IsEmpty
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ArrayStackTest
+[ RUN      ] ArrayStackTest.IsEmpty
+ Eliminando objetos
+[       OK ] ArrayStackTest.IsEmpty (0 ms)
+[----------] 1 test from ArrayStackTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"ArrayStackTest.IsEmpty" end time: Nov 03 15:17 -05
+"ArrayStackTest.IsEmpty" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: ArrayStackTest.WhenTop
+2/2 Test: ArrayStackTest.WhenTop
+Command: "/home/darwin/unsa/to/lab/stack/build/arrayStack" "--gtest_filter=ArrayStackTest.WhenTop" "--gtest_also_run_disabled_tests"
+Directory: /home/darwin/unsa/to/lab/stack/build
+"ArrayStackTest.WhenTop" start time: Nov 03 15:17 -05
+Output:
+----------------------------------------------------------
+Running main() from /home/darwin/unsa/to/lab/stack/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ArrayStackTest.WhenTop
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ArrayStackTest
+[ RUN      ] ArrayStackTest.WhenTop
+/home/darwin/unsa/to/lab/stack/arrayStack.cc:87: Failure
+Expected equality of these values:
+  stack2->top()
+    Which is: 12
+  9
+ Eliminando objetos
+[  FAILED  ] ArrayStackTest.WhenTop (0 ms)
+[----------] 1 test from ArrayStackTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] ArrayStackTest.WhenTop
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"ArrayStackTest.WhenTop" end time: Nov 03 15:17 -05
+"ArrayStackTest.WhenTop" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 03 15:17 -05

@@ -1,0 +1,5 @@
+add_test( ArrayStackTest.IsEmpty /home/darwin/unsa/to/lab/stack/build/arrayStack [==[--gtest_filter=ArrayStackTest.IsEmpty]==] --gtest_also_run_disabled_tests)
+set_tests_properties( ArrayStackTest.IsEmpty PROPERTIES WORKING_DIRECTORY /home/darwin/unsa/to/lab/stack/build)
+add_test( ArrayStackTest.WhenTop /home/darwin/unsa/to/lab/stack/build/arrayStack [==[--gtest_filter=ArrayStackTest.WhenTop]==] --gtest_also_run_disabled_tests)
+set_tests_properties( ArrayStackTest.WhenTop PROPERTIES WORKING_DIRECTORY /home/darwin/unsa/to/lab/stack/build)
+set( arrayStack_TESTS ArrayStackTest.IsEmpty ArrayStackTest.WhenTop)
